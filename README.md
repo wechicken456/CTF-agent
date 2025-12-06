@@ -4,6 +4,11 @@ Chatbot that uses [GeminiCLI](https://geminicli.com/docs/get-started/installatio
 
 More details on what CTFs are and the motivation for this project can be found in this [presentation](https://docs.google.com/presentation/d/1T-HfbbEgfL2h2r6NBUNwrbmsAUmm0qWLS7tQl8Q1pLE/edit?usp=sharing).
 
+The final report (unfinished) is [here](https://www.overleaf.com/read/bswrsqgfvysb#187c0f).
+
+
+
+
 
 # Architecture
 
