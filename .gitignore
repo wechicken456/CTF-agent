@@ -12,3 +12,5 @@ SillyTavern
 
 # environment secrets
 .env
+
+old_gradio.py
