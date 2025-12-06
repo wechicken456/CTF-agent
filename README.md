@@ -18,7 +18,7 @@ User interface is the [GeminiCLI](https://geminicli.com/docs/get-started/install
 
 The MCP server uses subprocess for short-lived tool calls/tasks and a docker container for long-lived tasks like fuzzing. It also provides an interface for the client to query the status of long-lived tasks.
 
-![architecture](../ctf-agent/assets/architecture.png)
+![architecture](./assets/architecture.png)
 
 
 # Installation
