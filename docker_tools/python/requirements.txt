@@ -1,0 +1,17 @@
+pwntools
+pycryptodome
+z3-solver
+requests
+cryptography
+gmpy2
+sympy
+ropper
+capstone
+keystone-engine
+unicorn
+flask-unsign
+git+https://github.com/RsaCtfTool/RsaCtfTool
+angr
+scapy
+pillow
+binwalk

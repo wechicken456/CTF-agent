@@ -1,0 +1,32 @@
+services:
+  python-sandbox:
+    build: ./docker_tools/python/
+    container_name: ${PYTHON_CONTAINER_NAME}
+    restart: unless-stopped
+    network_mode: bridge
+    volumes:
+      - ./ctf_workspace:/workspace
+
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+
+  web:
+    build: ./docker_tools/web/
+    container_name: ${WEB_CONTAINER_NAME}
+    restart: unless-stopped
+    volumes:
+      - ./ctf_workspace:/workspace
+      - /opt/wordlist:/opt/wordlist
+    network_mode: bridge
+
+  network:
+    build: ./docker_tools/network/
+    container_name: ${NETWORK_CONTAINER_NAME}
+    restart: unless-stopped
+    volumes:
+      - ./ctf_workspace:/workspace
+    network_mode: bridge
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
