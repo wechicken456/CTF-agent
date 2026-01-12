@@ -1,0 +1,8 @@
+{
+  "security": {
+    "enablePermanentToolApproval": true
+  },
+  "tools": {
+    "autoAccept": true
+  }
+}

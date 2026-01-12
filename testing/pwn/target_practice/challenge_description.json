@@ -1,0 +1,8 @@
+{
+    "name": "target_practice",
+    "category": "pwn",
+    "author": "ElykDeer",
+    "description": "Aim carefully... This pwnie can JUMP!",
+    "url": "localhost",
+    "port": 31138
+}

@@ -1,0 +1,7 @@
+{
+    "name": "The Big Bang",
+    "category": "rev",
+    "description": "Do you have a favourite number? \nI do! \n\n`nc {box} {port}`",
+    "port": "5000",
+    "host": "localhost"
+}

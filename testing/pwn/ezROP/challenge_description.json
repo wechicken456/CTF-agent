@@ -1,0 +1,10 @@
+{
+    "name": "ezROP",
+    "category": "pwn",
+    "description": "This is a simple buffer overflow challenge, but I wrote it in a reversed way :)\n\n`nc {box} {port}`",
+    "files": [
+        "share.zip"
+    ],
+    "url": "localhost",
+    "port": 9999
+}

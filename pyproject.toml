@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "angr>=9.2.191",
     "docker>=7.1.0",
     "fastmcp>=2.13.3",
     "gmpy2>=2.2.2",

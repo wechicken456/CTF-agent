@@ -1,0 +1,12 @@
+{
+    "name": "puffin",
+    "category": "pwn",
+    "description": "Huff, puff, and blow that buffer over.",
+    "points": 75,
+    "port": 31140,
+    "url": "localhost",
+    "files": [
+        "puffin",
+        "readme.txt"
+    ]
+}
